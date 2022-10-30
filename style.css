@@ -34,7 +34,7 @@
   text-decoration: none;
 }
 
-.header__link, .header__logo, .content__article-one-main-text--underline, .content__article-one-sub-text--underline, .content__article-article-two-text--underline:hover {
+.header__link:hover, .header__logo:hover, .content__article-one-main-text--underline:hover, .content__article-one-sub-text--underline:hover, .content__article-article-two-text--underline:hover {
   text-decoration: underline;
 }
 
