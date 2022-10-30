@@ -74,11 +74,11 @@
   box-sizing: border-box;
 }
 
-.header__nav > .header__link {
+.header__logo, .header__link {
   margin-left: 24px;
 }
 
-.header__nav > .header__logo {
+.header__logo {
   margin-right: auto;
   text-transform: uppercase;
 }
