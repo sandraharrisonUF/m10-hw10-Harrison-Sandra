@@ -21,15 +21,12 @@
   display: flex;
   flex-direction: column;
 }
-
 .content__heading-one {
   font-size: 2.5rem;
 }
-
 .content__heading-one, .content__heading-two {
   text-align: center;
 }
-
 .header__link {
   text-decoration: none;
 } 
@@ -61,13 +58,11 @@
 .content__article-article-two-text--underline:hover {
   text-decoration: underline;
 }
-
 .header {
   background-color: var(--primary-color);
   padding: 48px 0;
   border-bottom: var(--secondary-color) 6px solid;
 }
-
 .header__logo, .header__link {
   font-size: 1.5rem;
   color: var(--off-white);
@@ -145,9 +140,11 @@
 }
 .content__heading-one {
   font-size: 1.75em;
+  padding-bottom: 10px;
 }
 .content__heading-two {
   font-size: 1.65em;
+  padding-bottom: 7px;
 }
 .footer {
   margin-top: auto;
