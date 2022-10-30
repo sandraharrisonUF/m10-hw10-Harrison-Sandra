@@ -30,7 +30,19 @@
   text-align: center;
 }
 
-.header__link, .header__logo, .content__article-one-main-text--underline, .content__article-one-sub-text--underline, .content__article-article-two-text--underline {
+.header__link {
+  text-decoration: none;
+} 
+.header__logo {
+  text-decoration: none;
+} 
+.content__article-one-main-text--underline {
+  text-decoration: none;
+} 
+.content__article-one-sub-text--underline {
+  text-decoration: none;
+} 
+.content__article-article-two-text--underline {
   text-decoration: none;
 }
 
