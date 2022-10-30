@@ -84,7 +84,6 @@
 }
 
 .jumbotron, .content {
-  margin-bottom: 96px;
   box-shadow: 4px 4px 10px var(--gray);
   background-color: var(--white);
 }
@@ -95,7 +94,7 @@
   background-size: cover;
   background-position: center;
   padding: 0 48px;
-  margin: 0;
+  margin-bottom: 96px;
 }
 .flex-center {
   justify-content: space-evenly;
@@ -147,7 +146,7 @@
   padding-bottom: 7px;
 }
 .footer {
-  margin-top: auto;
+  margin-top: 96px;
   background-color: var(--gray);
 }
 .footer__copy {
