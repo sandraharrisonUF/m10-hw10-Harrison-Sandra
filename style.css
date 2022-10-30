@@ -27,35 +27,18 @@
 .content__heading-one, .content__heading-two {
   text-align: center;
 }
-.header__link {
-  text-decoration: none;
-} 
-.header__logo {
-  text-decoration: none;
-} 
-.content__article-one-main-text--underline {
-  text-decoration: none;
-} 
-.content__article-one-sub-text--underline {
-  text-decoration: none;
-} 
+.header__link, 
+.header__logo, 
+.content__article-one-main-text--underline, 
+.content__article-one-sub-text--underline, 
 .content__article-article-two-text--underline {
   text-decoration: none;
 }
 
-.header__link:hover {
-  text-decoration: underline;
-}
-.header__logo:hover {
-  text-decoration: underline;
-} 
-.content__article-one-main-text--underline:hover {
-  text-decoration: underline;
-} 
-.content__article-one-sub-text--underline:hover {
-  text-decoration: underline;
-}
-.content__article-article-two-text--underline:hover {
+.header__link:hover, 
+.header__logo:hover, 
+.content__article-one-main-text--underline:hover,
+.content__article-one-sub-text--underline:hover, .content__article-article-two-text--underline:hover {
   text-decoration: underline;
 }
 .header {
@@ -139,11 +122,11 @@
 }
 .content__heading-one {
   font-size: 1.75em;
-  padding-bottom: 10px;
+  padding: 15px 0;
 }
 .content__heading-two {
   font-size: 1.65em;
-  padding-bottom: 7px;
+  padding: 7px 0;
 }
 .footer {
   margin-top: 96px;
